@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "neutron-28d4c"
+  },
+  "targets": {
+    "neutron-28d4c": {
+      "hosting": {
+        "neutronsg": [
+          "neutronsg"
+        ]
+      }
+    }
   }
 }
