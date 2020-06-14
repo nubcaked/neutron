@@ -1,31 +1,20 @@
 import React from 'react';
-import { Button, Jumbotron, Container, Row } from 'react-bootstrap';
+import { Button, Container, Jumbotron } from 'react-bootstrap';
 
 function NeutronJumbotron() {
   return (
     <div>
-      <Jumbotron>
-        <Container display='flex'>
-          <Row>
-            <h1>Hello, world!</h1>
-            <p>
-              This is a simple hero unit, a simple jumbotron-style component for calling
-              extra attention to featured content or information.
-            </p>
-            <p>
-              <Button variant="primary">Learn more</Button>  
-            </p>
-          </Row>
-          <Row>
-            <h1>Hello, world!</h1>
-            <p>
-              This is a simple hero unit, a simple jumbotron-style component for calling
-              extra attention to featured content or information.
-            </p>
-            <p>
-              <Button variant="primary">Learn more</Button>  
-            </p>
-          </Row>
+      <Jumbotron className='bg-transparent'>
+        <Container>
+          {/* <Row>
+            <Col> */}
+              <h1>Affordable, reliable, local techies at your fingertips</h1>
+              <p>
+                We specialise in technical jobs ranging from helping with simple technical assignments to building full-blown enterprise systems
+              </p>
+              <Button target='_blank' href="https://forms.gle/Y7ZjScCKMkK6VJfr5" variant="success">Request For IT Help</Button>
+            {/* </Col>
+          </Row> */}
         </Container>
       </Jumbotron>
     </div>
