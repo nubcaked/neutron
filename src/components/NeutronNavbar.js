@@ -13,7 +13,7 @@ function NeutronNavbar(props) {
           </Navbar.Brand>
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Nav.Link eventKey={1} href="#deets">Our Services</Nav.Link>
+            <Nav.Link eventKey={1} href="#deets">How It Works?</Nav.Link>
             <Nav.Link eventKey={2} href="#deets">Our Credentials</Nav.Link>
             <Nav.Link eventKey={3} href="#deets">Why Us?</Nav.Link>
             <Nav.Link eventKey={4} href="#deets">Our Management</Nav.Link>
