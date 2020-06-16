@@ -4,11 +4,10 @@ import './NeutronJumbotron.scss';
 
 function NeutronJumbotron() {
   return (
-    <Jumbotron className='bg-transparent jumbo--position-relative jumbo--height-fill jumbo__bg'>
+    <Jumbotron className='bg-transparent jumbo--position-relative jumbo--height-fill jumbo--vertical-center jumbo__bg'>
       <Container>
         <h1>Affordable and reliable local techies at your fingertips</h1>
         <p>We specialise in technical jobs ranging from helping with simple technical assignments to building full-blown enterprise systems</p>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <Button target='_blank' href="https://forms.gle/Y7ZjScCKMkK6VJfr5" variant="success" block>Request For IT Help</Button>
       </Container>
     </Jumbotron>
