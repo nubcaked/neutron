@@ -56,8 +56,14 @@ div.jumbo {
     margin: 0px;
   }
 
-  &--pos-rel {
+  &--position-relative {
     position: relative;
+  }
+
+  &--vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
