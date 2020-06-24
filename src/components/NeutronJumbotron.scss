@@ -38,33 +38,31 @@
 //   height: 100%;
 // }
 
-div.jumbo {
-  &__bg::before {
-    content: "";
-    background: url("../images/clement-h-95YRwf6CNw8-unsplash.jpg") top center no-repeat;
-    top: 0; left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: absolute;
-    opacity: 0.2;
-    z-index: -1;
-  }
+div.jumbo__bg::before {
+  content: "";
+  background: url("../images/clement-h-95YRwf6CNw8-unsplash.jpg") top center no-repeat;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.2;
+  z-index: -1;
+}
 
-  &--height-fill {
-    flex: 1;
-    margin: 0px;
-  }
+div.jumbo--height-fill {
+  flex: 1;
+  margin: 0px;
+}
 
-  &--position-relative {
-    position: relative;
-  }
+div.jumbo--position-relative {
+  position: relative;
+}
 
-  &--vertical-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+div.jumbo--vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 // div.[^jumbo--bg]::after {
