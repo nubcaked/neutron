@@ -12,6 +12,11 @@ function NeutronFooter() {
             Email: sgneutron@gmail.com <br/>
             Mobile: +65 9169 9955
           </Col>
+          <Col>
+            <h5>Follow us at</h5>
+            <a target='_blank' href="https://www.facebook.com/groups/583579769225855/">Facebook</a> <br/>
+            <a target='_blank' href="https://www.instagram.com/neutron.sg/">Instagram</a>
+          </Col>
         </Row>
       </Container>
     </div>

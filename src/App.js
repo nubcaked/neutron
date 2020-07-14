@@ -4,6 +4,7 @@ import './App.scss';
 import NeutronJumbotron from './components/NeutronJumbotron';
 import NeutronNavbar from './components/NeutronNavbar';
 import NeutronFooter from './components/NeutronFooter';
+import NeutronSocialButtons from './components/NeutronSocialButtons';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <NeutronJumbotron/>
       </div>
       <NeutronFooter/>
+      <NeutronSocialButtons/>
     </React.Fragment>
   );
 }
