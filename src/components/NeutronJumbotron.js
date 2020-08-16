@@ -4,7 +4,7 @@ import './NeutronJumbotron.scss';
 
 function NeutronJumbotron() {
   return (
-    <Jumbotron className='bg-transparent jumbo--position-relative jumbo--height-fill jumbo--vertical-center jumbo__bg'>
+    <Jumbotron className='jumbo--position-relative jumbo--height-fill jumbo--vertical-center'>
       <Container>
         <h1>Affordable and reliable local techies at your fingertips</h1>
         <p>We specialise in technical jobs ranging from helping with simple technical assignments to building full-blown enterprise systems</p>
