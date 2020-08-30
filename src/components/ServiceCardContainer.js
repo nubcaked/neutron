@@ -10,8 +10,8 @@ import CodingAssignment from '../images/coding-assignment.png';
 function ServiceCardContainer() {
   return (
     <Container fluid id='services' className='svc-card-ctn'>
-      <Row><h1>Our Services:</h1></Row>
-      <Row className='svc-card-ctn__row'>
+      <Row className='svc-card-ctn__text-row'><h1>Our Services:</h1></Row>
+      <Row className='svc-card-ctn__card-row'>
         <ServiceCard title='Web Development' image={WebDev} />
         <ServiceCard title='App Development' image={AppDev} />
         <ServiceCard title="Coding Assignment" image={CodingAssignment} />

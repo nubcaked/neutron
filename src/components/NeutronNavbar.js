@@ -14,8 +14,8 @@ function NeutronNavbar(props) {
           <Nav className="mr-auto"></Nav>
           <Nav>
             <Nav.Link eventKey={1} href="#services">Our Service</Nav.Link>
-            <Nav.Link eventKey={2} href="#deets">Our Credentials</Nav.Link>
-            <Nav.Link eventKey={3} href="#deets">Join us!</Nav.Link>
+            <Nav.Link eventKey={2} href="#credentials">Our Credentials</Nav.Link>
+            <Nav.Link eventKey={3} target='_blank' href="https://forms.gle/RPWGJN6ovfj6cQ7A6">Join us!</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
