@@ -6,6 +6,7 @@ import NeutronNavbar from './components/NeutronNavbar';
 import NeutronFooter from './components/NeutronFooter';
 import NeutronSocialButtons from './components/NeutronSocialButtons';
 import ServiceCardContainer from './components/ServiceCardContainer';
+import CredentialContainer from './components/CredentialContainer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <NeutronJumbotron/>
       </div>
       <ServiceCardContainer/>
+      <CredentialContainer/>
       <NeutronFooter/>
 
       <NeutronSocialButtons/>
