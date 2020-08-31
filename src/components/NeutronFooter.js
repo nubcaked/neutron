@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Image, Nav, Navbar } from 'react-bootstrap';
 import NeutronLogo from '../images/nu4-removebg-preview.png';
+import './NeutronFooter.scss';
 
 function NeutronFooter() {
   return (
-    <div className='bg-dark text-white-50'>
+    <div className='bg-dark text-white-50 footer'>
       <Container>
         <Row>
           <Col>
