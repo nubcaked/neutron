@@ -1,6 +1,10 @@
-div.svc-card {
+.svc-card {
   height: 300px;
   width: 300px;
   align-items: center;
   justify-content: center;
+}
+
+.svc-card--borderless {
+  border: none;
 }

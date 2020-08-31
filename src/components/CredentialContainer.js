@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Nav, Navbar } from 'react-bootstrap';
 import './CredentialContainer.scss';
 import NUSLogo from '../images/nus-logo.png';
-import NTULogo from '../images/ntu-logo.jpg';
+import NTULogo from '../images/ntu-logo.png';
 import SMULogo from '../images/smu-logo.svg';
 import SCBLogo from '../images/scb-logo.svg';
 
