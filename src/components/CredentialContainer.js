@@ -12,15 +12,15 @@ function CredentialContainer() {
       <Row className='cred-ctn__text-row'><h1>Our Credentials</h1></Row>
       <br />
       <Row className='cred-ctn__text-row'><h4>Education</h4></Row>
-      <Row className='cred-ctn__card-row'>
-        <img src={NUSLogo} />
-        <img src={NTULogo} />
-        <img src={SMULogo} />
+      <Row className='cred-ctn__img-row'>
+        <img className='cred-ctn__cred' src={NUSLogo} />
+        <img className='cred-ctn__cred' src={NTULogo} />
+        <img className='cred-ctn__cred' src={SMULogo} />
       </Row>
       <br />
       <Row className='cred-ctn__text-row'><h4>Experience</h4></Row>
-      <Row className='cred-ctn__card-row'>
-        <img src={SCBLogo} />
+      <Row className='cred-ctn__img-row'>
+        <img className='cred-ctn__cred' src={SCBLogo} />
       </Row>
     </Container>
   );
